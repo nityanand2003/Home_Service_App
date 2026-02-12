@@ -115,4 +115,3 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
       ),
     );
   }
-}
