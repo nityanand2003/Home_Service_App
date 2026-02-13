@@ -33,7 +33,8 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
         backgroundColor: Colors.blue.withOpacity(0.2),
         elevation: 0,
         title: const Text("Bihari Rang",
-            style: TextStyle(color: Colors.blueAccent, fontWeight: FontWeight.bold)),
+            style: TextStyle(
+                color: Colors.blueAccent, fontWeight: FontWeight.bold)),
         iconTheme: const IconThemeData(color: Colors.blueAccent),
         actions: [
           IconButton(
@@ -52,11 +53,13 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
               currentAccountPicture: const CircleAvatar(
                 backgroundImage: AssetImage('assets/image/logo.png'),
               ),
-              accountName: const Text("User Name", style: TextStyle(fontWeight: FontWeight.bold)),
+              accountName: const Text(
+                  "User Name", style: TextStyle(fontWeight: FontWeight.bold)),
               accountEmail: const Text("+91 9876543210"),
             ),
             ListTile(
-              leading: const Icon(Icons.home_outlined, color: Colors.blueAccent),
+              leading: const Icon(
+                  Icons.home_outlined, color: Colors.blueAccent),
               title: const Text("Home"),
               onTap: () {
                 Navigator.pop(context);
@@ -68,24 +71,29 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
               title: const Text("About App"),
               onTap: () {
                 Navigator.pop(context); // Drawer close karein
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const AboutAppPage()));
+                Navigator.push(context, MaterialPageRoute(
+                    builder: (context) => const AboutAppPage()));
               },
             ),
             ListTile(
-              leading: const Icon(Icons.groups_outlined, color: Colors.blueAccent),
+              leading: const Icon(
+                  Icons.groups_outlined, color: Colors.blueAccent),
               title: const Text("Our Team"), // Developer Info Page
               onTap: () {
                 Navigator.pop(context); // Drawer close karein
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const DeveloperInfoPage()));
+                Navigator.push(context, MaterialPageRoute(
+                    builder: (context) => const DeveloperInfoPage()));
               },
             ),
             const Spacer(), // Baaki items ko niche push karne ke liye
             const Divider(),
             ListTile(
               leading: const Icon(Icons.logout, color: Colors.redAccent),
-              title: const Text("Logout", style: TextStyle(color: Colors.redAccent)),
+              title: const Text(
+                  "Logout", style: TextStyle(color: Colors.redAccent)),
               onTap: () {
-                Navigator.of(context).pushNamedAndRemoveUntil('/auth_option', (route) => false);
+                Navigator.of(context).pushNamedAndRemoveUntil(
+                    '/auth_option', (route) => false);
               },
             ),
             const SizedBox(height: 20),
@@ -108,10 +116,13 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
         unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.calendar_month), label: "Booking"),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_cart), label: "Shopping"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.calendar_month), label: "Booking"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.shopping_cart), label: "Shopping"),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
     );
   }
+}
