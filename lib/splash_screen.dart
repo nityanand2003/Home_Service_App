@@ -63,7 +63,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
 
               // 4. Welcome Text
               const Text(
-                "Welcome to Bihari Rang",
+                "Welcome to Worker Hub",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

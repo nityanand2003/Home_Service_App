@@ -32,7 +32,7 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
       appBar: AppBar(
         backgroundColor: Colors.blue.withOpacity(0.2),
         elevation: 0,
-        title: const Text("Bihari Rang",
+        title: const Text("Worker Hub",
             style: TextStyle(
                 color: Colors.blueAccent, fontWeight: FontWeight.bold)),
         iconTheme: const IconThemeData(color: Colors.blueAccent),

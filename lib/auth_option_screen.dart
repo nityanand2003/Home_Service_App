@@ -29,7 +29,7 @@ class AuthOptionScreen extends StatelessWidget {
 
               // 2. Welcome Texts
               const Text(
-                "Welcome to Bihari Rang",
+                "Welcome to Worker Hub",
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,

@@ -32,7 +32,7 @@ class ShoppingPage extends StatelessWidget {
         automaticallyImplyLeading: false,
         backgroundColor: Colors.blue.withOpacity(0.2),
         elevation: 0,
-        title: const Text("Bihari Rang Shop",
+        title: const Text("Worker Hub Shop",
             style: TextStyle(color: Colors.blueAccent, fontWeight: FontWeight.bold)),
 
         // Yahan se naya code shuru hota hai:

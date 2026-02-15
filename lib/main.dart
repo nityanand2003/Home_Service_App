@@ -18,7 +18,7 @@ class HomeServiceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bihari Rang Home Services',
+      title: 'Worker Hub Home Services',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

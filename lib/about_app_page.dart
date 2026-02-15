@@ -27,7 +27,7 @@ class AboutAppPage extends StatelessWidget {
                 children: [
                   Image.asset('assets/image/logo.png', height: 100),
                   const SizedBox(height: 10),
-                  const Text("Bihari Rang", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.blueAccent)),
+                  const Text("Worker Hub", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.blueAccent)),
                   const Text("V 1.0.0", style: TextStyle(color: Colors.grey)),
                 ],
               ),
@@ -48,7 +48,7 @@ class AboutAppPage extends StatelessWidget {
             const Divider(),
             const SizedBox(height: 10),
             const Text(
-              "Bihari Rang Home Services ek aisi pehal hai jo Sasaram aur aas-paas ke ilakon mein rehne waale logon ko unki zarurat ki saari home services aur hardware items ek hi platform par muhaiya karati hai.",
+              "Worker Hub Home Services ek aisi pehal hai jo Sasaram aur aas-paas ke ilakon mein rehne waale logon ko unki zarurat ki saari home services aur hardware items ek hi platform par muhaiya karati hai.",
               style: TextStyle(fontSize: 15, height: 1.5, color: Colors.black87),
               textAlign: TextAlign.justify,
             ),
